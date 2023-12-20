@@ -8,7 +8,7 @@ from api.serializers import (IngredientSerializer, RecipeCreateSerializer,
 from recipes.models import Ingredient, Recipe, RecipeIngredient
 
 
-class IngredientViewSet(viewsets.ModelViewSet):
+class IngredientViewSet(viewsets.ReadOnlyModelViewSet):
     """Вьюсет для объектов модели ингредиентов."""
     queryset = Ingredient.objects.all()
     serializer_class = IngredientSerializer

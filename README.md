@@ -60,5 +60,17 @@ API сервис для создания рецептов, с автоматич
 
 `celery -A recipe_testcase beat -l info`
 
+### Доступные URL:
+
+* http://127.0.0.1:8000/admin/
+* http://127.0.0.1:8000/redoc/ 
+* http://127.0.0.1:8000/api/recipes/
+* http://127.0.0.1:8000/api/ingredients/
+
+### Документация по проекту:
+
+* http://127.0.0.1:8000/redoc/ 
+
+
 ## Автор:
 [Владислав Кузнецов](https://github.com/Dragonwlad)

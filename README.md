@@ -20,6 +20,10 @@ API сервис для создания рецептов, с автоматич
 
 `cd recipe_testcase/recipe_testcase`
 
+Установить версию питона:
+
+`sudo apt install python3.10-venv`
+
 `python -m venv venv`
 
 `source venv/Scripts/activate`
